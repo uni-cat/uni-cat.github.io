@@ -8,19 +8,9 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
         <script>
-            var answer = document.getElementById("result"); function myfunction() {
-             if (navigator.userAgent.match(/Android/i)
-             || navigator.userAgent.match(/webOS/i)
-             || navigator.userAgent.match(/iPhone/i)
-             || navigator.userAgent.match(/iPad/i)
-             || navigator.userAgent.match(/iPod/i)
-             || navigator.userAgent.match(/BlackBerry/i)
-             || navigator.userAgent.match(/Windows Phone/i)) {
-                a = true ;
-             } else {
-                a = false ;
+             if (navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/webOS/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPod/i) || navigator.userAgent.match(/BlackBerry/i) || navigator.userAgent.match(/Windows Phone/i)) {
+                alert('This page is not made for mobile!')
              }
-            if (a) {alert('This page is not made for mobile!')}
         </script>
         <style>
             .poppins-regular {
